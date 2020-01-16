@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	border:gray 1px solid;
+	/* border:1px solid gray; */
 	box-sizing:border-box;
 }
 /* HTML5 display-role reset for older browsers */
@@ -72,7 +72,6 @@ img {
 	display:inline-block;
 }
 
-
 nav > div {
 	display:inline-block;
 }
@@ -97,9 +96,22 @@ a:hover {
 	color:black;
 }
 
+section.headingSection {
+	height:500px;
+}
+
+section.headingSection > div {
+	width:49%;
+}
+
+section.headingSection > div > img {
+	text-align:center;
+	margin:0 10% 200px 10%;
+}
+
 div.heading {
 	width:49%;
-	margin-top:50px;
+	margin:10% 0 10% 0;
 }
 
 div.heading > div {
@@ -129,17 +141,42 @@ div.heading > div {
 	display:inline-block;
 }
 
+div.lineOne, div.lineThree, div.lineFour {
+	border-top: 1px black solid;
+	padding-top:50px;
+	width:100%;
+}
+
 div.lineOne > div {
 	display:inline-block;
 	width:49.81%;
 }
 
-section > img {
+div.imgDiv {
+	width:100%;
+}
+
+img.middle-img {
 	text-align:center;
-	margin:0 25% 0 25%;
+	margin:20px auto 20px auto;
+	display:block;
+}
+
+div.lineTwo {
+	margin-bottom:20px;
 }
 
 div.lineTwo > div {
 	display:inline-block;
 	width:33.1%;
+}
+
+div.contactInfo {
+	margin-bottom:20px;
+}
+
+div.copyright {
+	text-align:center;
+	display:block;
+	margin: 30px 0 30px 0;
 }
