@@ -22,6 +22,8 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	border:gray 1px solid;
+	box-sizing:border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -30,6 +32,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	margin:0 10% 0 10%;
 }
 ol, ul {
 	list-style: none;
@@ -64,3 +67,79 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+img {
+	vertical-align:middle;
+	display:inline-block;
+}
+
+
+nav > div {
+	display:inline-block;
+}
+
+nav > div > div {
+	display:inline-block;
+	padding:0 0 0 0;
+	margin: 5% 20px 5% 20px;
+}
+
+nav > img {
+	margin-left:10%;
+}
+
+a {
+	color:#A9A9A9;
+	text-decoration:none;
+	font-family:inherit;
+}
+
+a:hover {
+	color:black;
+}
+
+div.heading {
+	width:49%;
+	margin-top:50px;
+}
+
+div.heading > div {
+	display:block;
+	width:100%;
+	text-align:center;
+}
+
+div.heading > div:last-child > div {
+	border: 1px solid black;
+	padding:5px 5px 5px 5px;
+	width:150px;
+	margin:20px auto 0 auto;
+	vertical-align: middle;
+}
+
+h1 {
+	font-size: 400%;
+	margin-bottom:0px;
+}
+
+section > div {
+	display:inline-block;
+}
+
+div.heading > div {
+	display:inline-block;
+}
+
+div.lineOne > div {
+	display:inline-block;
+	width:49.81%;
+}
+
+section > img {
+	text-align:center;
+	margin:0 25% 0 25%;
+}
+
+div.lineTwo > div {
+	display:inline-block;
+	width:33.1%;
+}
